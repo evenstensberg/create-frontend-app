@@ -1,0 +1,6 @@
+[submodule "kit"]
+	path = kit
+	url = https://github.com/sveltejs/kit.git
+[submodule "create-vue"]
+	path = create-vue
+	url = https://github.com/vuejs/create-vue.git

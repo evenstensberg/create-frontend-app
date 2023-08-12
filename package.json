@@ -1,0 +1,24 @@
+{
+  "name": "create-frontend-app",
+  "version": "1.0.0",
+  "description": "Combines all create cli tools into one cli",
+  "main": "cli.js",
+  "bin": {
+    "create-frontend": "./cli.js"
+  },
+  "scripts": {
+    "clean": "sh clean.sh",
+    "submodule:update": "git submodule update --remote"
+  },
+  "keywords": [
+    "CLI",
+    "frontend"
+  ],
+  "author": "Even Stensberg",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/cli": "^16.2.0",
+    "create-react-app": "^5.0.1",
+    "proportional": "^0.0.1"
+  }
+}
